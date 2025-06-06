@@ -1,1 +1,13 @@
-<p>essay-editor works!</p>
+<div class="essay-editor-container">
+  <textarea
+    class="essay-textarea"
+    [value]="essayText"
+    (input)="onEssayChange($event)"
+    placeholder="Write or paste your essay here..."
+    rows="16"
+  ></textarea>
+  <div
+    class="essay-highlighted"
+    [innerHTML]="highlightedEssay"
+  ></div>
+</div>
