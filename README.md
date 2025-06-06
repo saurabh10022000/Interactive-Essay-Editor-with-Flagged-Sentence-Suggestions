@@ -33,21 +33,21 @@ An Angular application for editing essays with real-time sentence flagging and s
 
 ### Setup Instructions
 
-1. **Clone the repository** or extract the zipped project folder:
+1. Clone the repository** or extract the zipped project folder:
    ```bash
    git clone https://github.com/your-username/EssayEditorAngular.git
-2. **Navigate to the project directory:
+2. Navigate to the project directory:
    ```bash
    cd EssayEditorAngular
-3.**Install dependencies:
+3.Install dependencies:
    ```bash
   npm install
 ```
-4. **Run the development server:
+4. Run the development server:
 ```bash
    ng serve
 ```
-5. **Open your browser and go to:
+5. Open your browser and go to:
 ```bash
    http://localhost:4200/
 ```
