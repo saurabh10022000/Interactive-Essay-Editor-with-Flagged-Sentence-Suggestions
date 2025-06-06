@@ -1,0 +1,45 @@
+.essay-editor-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.essay-textarea {
+  width: 100%;
+  min-height: 200px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.essay-highlighted {
+  width: 100%;
+  min-height: 200px;
+  border: 1px dashed #eee;
+  background: #fafafa;
+  padding: 1rem;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.essay-highlighted mark {
+  background: #ffe066;
+  font-weight: bold;
+  color: #333;
+  border-radius: 2px;
+  padding: 0 2px;
+}
+
+@media (max-width: 900px) {
+  .essay-editor-container {
+    max-width: 100%;
+  }
+}
