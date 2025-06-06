@@ -41,9 +41,9 @@ An Angular application for editing essays with real-time sentence flagging and s
    cd EssayEditorAngular
 3.**Install dependencies:
    ```bash
-  cd EssayEditorAngul
+  npm install
 ```
-4. ** Run the development server:
+4. **Run the development server:
 ```bash
    ng serve
 ```
